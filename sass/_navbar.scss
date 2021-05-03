@@ -1,0 +1,46 @@
+nav{
+    background-color: black;
+    font-weight: bolder;
+    .collapse{
+        font-size: 13px;
+        letter-spacing: 1px;
+        .navbar-nav{
+            .nav-item{
+                padding: 0px 5px;
+                .nav-link{
+                    opacity: 0.8;
+                    transition: 0.3s;
+                }
+                .nav-link:hover{
+                    opacity: 1;
+                }
+            }
+            @media screen and (max-width:1115px) {
+                .nav-item{
+                    padding: 0;
+                    letter-spacing: 0px;
+                }
+            }
+            .get{
+                opacity: 0.5;
+            }
+            .get:hover{
+                opacity: 1;
+            }
+            .dropdown-menu{
+                background-color: black;
+                .dropdown-item{
+                    color: white;
+                    line-height: 30px;
+                }
+                .dropdown-item:hover{
+                    background-color: black;
+                }
+            }
+            .dropdown:hover .dropdown-menu {
+                display: block;
+                margin-top: 0px; 
+             }
+        }
+    }
+}
