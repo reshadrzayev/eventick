@@ -32,16 +32,25 @@ $(function(){
         $(".row1-content").toggle(200);
         $(".row2-content").hide(200);
         $(".row3-content").hide(200);
+        $("#vrline1").toggle(400);
+        $("#vrline2").show(400);
+        $("#vrline3").show(400);
     });
     $(".roww2").click(function(){
         $(".row2-content").toggle(200);
         $(".row1-content").hide(200);
         $(".row3-content").hide(200);
+        $("#vrline2").toggle(400);
+        $("#vrline3").show(400);
+        $("#vrline1").show(400);
     });
     $(".roww3").click(function(){
         $(".row3-content").toggle(200);
         $(".row1-content").hide(200);
         $(".row2-content").hide(200);
+        $("#vrline3").toggle(400);
+        $("#vrline1").show(400);
+        $("#vrline2").show(400);
     });
 });
 

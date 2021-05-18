@@ -100,6 +100,7 @@
             }
             .rowtoggle{
                 .r{
+                    justify-content: center;
                     align-items: center;
                     height: 60px;
                     margin: 5px 0;
@@ -109,11 +110,12 @@
                     flex-direction: column;
                     width: 100%;
                     .btnscroll1{
+                        
                         // height: 60px;
                         display: flex;
                         align-items: center;
                         height: 100%;
-                        width: 100%;
+                        width: 90%;
                         display: flex;
                         flex-direction: row;
                         font-weight: bold;
@@ -129,10 +131,31 @@
                         p{
                             padding: 0 5px;
                         }
+                       
                         span{
                             padding: 0 5px;
                             color: #e71c37;
                             background-color: white;
+                        }
+                    }
+                    #plus{
+                        background-color: white;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 22px;
+                        height: 22px;
+                        position: relative;
+                        .hrline{
+                            width: 12px;
+                            height: 3px;
+                            background-color: #e71c37;     
+                        }
+                        .vrline{
+                            width: 3px;
+                            height: 12px;
+                            background-color: #e71c37;
+                            position: absolute;
                         }
                     }
                     .animate{

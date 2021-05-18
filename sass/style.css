@@ -820,6 +820,9 @@ nav .collapse .navbar-nav .dropdown:hover .dropdown-menu {
 }
 
 .section4 .row-main .col2 .rowtoggle .r {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -842,7 +845,7 @@ nav .collapse .navbar-nav .dropdown:hover .dropdown-menu {
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
-  width: 100%;
+  width: 90%;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -870,6 +873,35 @@ nav .collapse .navbar-nav .dropdown:hover .dropdown-menu {
   padding: 0 5px;
   color: #e71c37;
   background-color: white;
+}
+
+.section4 .row-main .col2 .rowtoggle .r #plus {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 22px;
+  height: 22px;
+  position: relative;
+}
+
+.section4 .row-main .col2 .rowtoggle .r #plus .hrline {
+  width: 12px;
+  height: 3px;
+  background-color: #e71c37;
+}
+
+.section4 .row-main .col2 .rowtoggle .r #plus .vrline {
+  width: 3px;
+  height: 12px;
+  background-color: #e71c37;
+  position: absolute;
 }
 
 .section4 .row-main .col2 .rowtoggle .r .animate {
